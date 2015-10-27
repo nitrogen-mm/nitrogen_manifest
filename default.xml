@@ -9,29 +9,6 @@
 		fetch="https://github.com/nitrogen-project"
 		sync-j="16"/>
 
-	<remote name="eos"
-		fetch="https://github.com/Euphoria-OS"
-		sync-j="6"/>
-
-	<remote name="cm"
-		fetch="https://github.com/cyanogenmod/"/>
-
-	<remote name="xyyx"
-		fetch="https://github.com/xyyx"
-		sync-j="16"/>
-
-	<remote name="Mr-MEX"
-		fetch="https://github.com/Mr-MEX"
-		sync-j="16"/>
-
-	<remote name="zephik"
-		fetch="https://github.com/zephiK"
-		sync-j="6"/>
-
-	<remote name="matt"
-		fetch="https://github.com/MatthewBooth"
-		sync-j="6"/>
-
 	<!--
 		Android Open Source Project
 		Android 6 Marshmallow
@@ -469,7 +446,7 @@
 	<project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="nos" revision="marshmallow-6.0" />
 	<project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nos" revision="cm-13.0" />
-	<project path="packages/apps/OTAUpdates" name="OTAUpdates" remote="matt" revision="stable" />
+	<project path="packages/apps/OTAUpdates" name="OTAUpdates" remote="nos" revision="aosp" />
 	<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="mm6.0" />
 
 	<!-- Packages -->
@@ -489,7 +466,7 @@
 
 	<!-- External -->
 	<project path="external/libpng" name="android_external_libpng" remote="nos" revision="mm6.0"/>	
-	<project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-13.0" />
+	<project path="external/busybox" name="android_external_busybox" remote="nos" revision="cm-13.0" />
 	<project path="external/google" name="android_external_google" remote="nos" revision="marshmallow-6.0" />
 	<project path="external/chromium-webview" name="external_chromium-webview" remote="nos" revision="master" />
 
