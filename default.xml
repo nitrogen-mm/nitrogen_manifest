@@ -485,5 +485,5 @@
 	<project path="kernel/lge/geehrc" name="android_kernel_lge_geehrc" remote="nos" revision="mm6.0" />
 
 	<!-- Blobs -->
-	<project path="vendor/lge/geehrc" name="android_vendor_lge_geehrc" remote="nos" revision="marshmallow-release" />
+	<project path="vendor/lge/geehrc" name="android_vendor_lge_geehrc" remote="nos" revision="mm6.0" />
 </manifest>
