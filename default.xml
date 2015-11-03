@@ -3,7 +3,7 @@
 	<remote name="aosp"
 		fetch="https://android-review.googlesource.com/"/>
 
-	<default revision="refs/tags/android-6.0.0_r1" remote="aosp" sync-j="6" />
+	<default revision="refs/tags/android-6.0.0_r26" remote="aosp" sync-j="6" />
 
 	<remote name="nos"
 		fetch="https://github.com/nitrogen-project"
@@ -431,7 +431,7 @@
 	<project path="build" name="android_build" groups="pdk" remote="nos" revision="mm6.0" >
 		<copyfile src="core/root.mk" dest="Makefile" />
 	</project>
-	<project path="bionic" name="android_bionic" remote="nos" revision="cm-13.0" />
+	<project path="bionic" name="android_bionic" remote="nos" revision="mm6.0" />
 
 	<!-- Apps -->
 	<project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="nos" revision="mm6.0" />
@@ -443,7 +443,7 @@
 	<project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="nos" revision="mm6.0" />
-	<project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nos" revision="cm-13.0" />
+	<project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/OTAUpdates" name="OTAUpdates" remote="nos" revision="aosp" />
 	<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="mm6.0" />
 
@@ -472,7 +472,7 @@
 	<project path="external/chromium-webview" name="external_chromium-webview" remote="nos" revision="master" />
 
 	<!-- Hardware -->
-	<project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="cm-13.0" />
+	<project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="mm6.0" />
 
 	<!-- Nitrogen OS Vendor -->
 	<project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision= "mm6.0" />
