@@ -467,7 +467,7 @@
 
 	<!-- External -->
 	<project path="external/libpng" name="android_external_libpng" remote="nos" revision="mm6.0" />
-	<project path="external/busybox" name="android_external_busybox" remote="nos" revision="cm-13.0" />
+	<project path="external/busybox" name="android_external_busybox" remote="nos" revision="mm6.0" />
 	<project path="external/google" name="android_external_google" remote="nos" revision="marshmallow-6.0" />
 	<project path="external/chromium-webview" name="external_chromium-webview" remote="nos" revision="master" />
 
