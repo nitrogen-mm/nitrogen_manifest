@@ -338,7 +338,6 @@
 	<project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
 	<project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
 	<project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
-	<project path="packages/apps/Terminal" name="platform/packages/apps/Terminal" groups="pdk-fs" />
 	<project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
 	<project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
 	<project path="packages/experimental" name="platform/packages/experimental" />
@@ -444,6 +443,7 @@
 	<project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/OTAUpdates" name="OTAUpdates" remote="nos" revision="aosp" />
 	<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="mm6.0" />
+	<project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="nos" revision="mm6.0" />
 
 	<!-- Packages -->
 	<project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nos" revision="mm6.0" />
