@@ -441,7 +441,7 @@
 	<project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nos" revision="mm6.0" />
-	<project path="packages/apps/OTAUpdates" name="OTAUpdates" remote="nos" revision="aosp" />
+	<project path="packages/apps/OTAUpdates" name="android_packages_apps_OTAUpdates" remote="nos" revision="aosp" />
 	<project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="nos" revision="mm6.0" />
