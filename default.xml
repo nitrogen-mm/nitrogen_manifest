@@ -11,7 +11,7 @@
 
 	<!--
 		Android Open Source Project
-		Android 6 Marshmallow
+		Android 6.0.1 Marshmallow
 	-->
 	<project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
 	<project path="art" name="platform/art" groups="pdk" />
@@ -419,7 +419,7 @@
 	
 	<!-- 
 		Nitrogen OS
-		Android 6.0 rev. 1
+		Android 6.0.1 rev. 3
 		By xyyx, Mr.MEX
 	-->
 	<project path="build" name="android_build" groups="pdk" remote="nos" revision="mm6.0" >
