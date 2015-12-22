@@ -253,7 +253,6 @@
 	<project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" />
 	<project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
 	<project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-	<project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
 	<project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
 	<project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
 	<project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
@@ -462,6 +461,7 @@
 	<project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="mm6.0" />
 	<project path="frameworks/base" name="android_frameworks_base" remote="nos" revision="mm6.0" />
 	<project path="frameworks/native" name="android_frameworks_native" remote="nos" revision="mm6.0" />
+	<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nos" revision="mm6.0" />
 	<project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nos" revision="mm6.0" />
 
 	<!-- External -->
