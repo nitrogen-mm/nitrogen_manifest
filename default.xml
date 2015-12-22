@@ -323,7 +323,6 @@
 	<project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
 	<project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
 	<project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
-	<project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
 	<project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
 	<project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
 	<project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
@@ -439,6 +438,7 @@
 	<project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="nos" revision="mm6.0" />
+	<project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/OTAUpdates" name="android_packages_apps_OTAUpdates" remote="nos" revision="aosp" />
 	<project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="nos" revision="mm6.0" />
