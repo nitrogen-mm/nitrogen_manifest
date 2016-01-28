@@ -423,7 +423,6 @@
 	<project path="bionic" name="android_bionic" remote="nos" revision="mm6.0" />
 
 	<!-- Apps -->
-	<project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="nos" revision="mm6.0" />
@@ -447,6 +446,7 @@
 	<project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="nos" revision="mm6.0" />
+	<project path="packages/apps/ViPERFX" name="android_packages_apps_ViPERFX" remote="nos" revision="mm6.0" />
 
 	<!-- Packages -->
 	<project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nos" revision="mm6.0" />
