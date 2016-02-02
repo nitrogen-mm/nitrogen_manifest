@@ -3,7 +3,7 @@
 	<remote name="aosp"
 		fetch="https://android-review.googlesource.com/"/>
 
-	<default revision="refs/tags/android-6.0.1_r10" remote="aosp" sync-j="10" />
+	<default revision="refs/tags/android-6.0.1_r13" remote="aosp" sync-j="10" />
 
 	<remote name="nos"
 		fetch="https://github.com/nitrogen-project"
