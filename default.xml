@@ -395,7 +395,6 @@
 	<project path="system/media" name="platform/system/media" groups="pdk" />
 	<project path="system/netd" name="platform/system/netd" groups="pdk" />
 	<project path="system/security" name="platform/system/security" groups="pdk" />
-	<project path="system/vold" name="platform/system/vold" groups="pdk" />
 	<project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
 	<project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
 	<project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -459,6 +458,7 @@
 	<!-- System -->
 	<project path="system/core" name="android_system_core" remote="nos" revision="mm6.0" />
 	<project path="system/extras" name="android_system_extras" remote="nos" revision="mm6.0" />
+	<project path="system/vold" name="android_system_vold" remote="nos" revision="mm6.0" />
 
 	<!-- Frameworks -->
 	<project path="frameworks/av" name="android_frameworks_av" remote="nos" revision="mm6.0" />
@@ -468,10 +468,12 @@
 	<project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nos" revision="mm6.0" />
 
 	<!-- External -->
+	<project path="external/fuse" name="android_external_fuse" remote="nos" revision="mm6.0" />
 	<project path="external/libpng" name="android_external_libpng" remote="nos" revision="mm6.0" />
 	<project path="external/busybox" name="android_external_busybox" remote="nos" revision="mm6.0" />
 	<project path="external/google" name="android_external_google" remote="nos" revision="marshmallow-6.0" />
 	<project path="external/chromium-webview" name="external_chromium-webview" remote="nos" revision="mm6.0" />
+	<project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="mm6.0" />
 	<project path="external/sqlite" name="android_external_sqlite" remote="nos" revision="mm6.0" />
 
 	<!-- Hardware -->
