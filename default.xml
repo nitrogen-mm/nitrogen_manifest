@@ -9,6 +9,10 @@
 		fetch="https://github.com/nitrogen-project"
 		sync-j="16"/>
 
+	<remote name="nosdev"
+		fetch="https://github.com/nitrogen-devs"
+		sync-j="16"/>
+
 	<!--
 		Android Open Source Project
 		Android 6.0.1 Marshmallow
@@ -411,8 +415,7 @@
 	<project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 	
 	<!-- 
-		Nitrogen OS
-		Android 6.0.1 rev. 3
+		Nitrogen OS 6
 		By xyyx, Mr.MEX
 	-->
 	<project path="build" name="android_build" groups="pdk" remote="nos" revision="mm6.0" >
@@ -482,13 +485,31 @@
 	<!-- Nitrogen OS Vendor -->
 	<project path="vendor/nitrogen" name="android_vendor_nitrogen" remote="nos" revision= "mm6.0" />
 
-	<!-- Devices: LG Optimus G [Based on geehrc (mako)] | Product: geehrc -->
-	<!-- Device -->
+	<!-- 
+		Devices:
+			LG Optimus G (geehrc)
+			LG Optimus G (geeb)
+			LG Nexus 4 (mako)
+	-->
+	
+	<!-- Device tree -->
 	<project path="device/lge/geehrc" name="android_device_lge_geehrc" remote="nos" revision="mm6.0" />
+	<project path="device/lge/geeb" name="android_device_lge_geeb" remote="nosdev" revision="mm6.0" />
+	<project path="device/lge/mako" name="android_device_lge_mako" remote="nosdev" revision="mm6.0" />
 
-	<!-- Kernel -->
+	<!-- Kernels -->
 	<project path="kernel/lge/geehrc" name="android_kernel_lge_geehrc" remote="nos" revision="mm6.0" />
+	<project path="kernel/lge/geeb" name="android_kernel_lge_geeb" remote="nosdev" revision="mm6.0" />
+	<project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="nosdev" revision="mm6.0" />
 
 	<!-- Blobs -->
 	<project path="vendor/lge/geehrc" name="android_vendor_lge_geehrc" remote="nos" revision="mm6.0" />
+	<project path="vendor/lge/geeb" name="android_vendor_lge_geeb" remote="nosdev" revision="mm6.0" />
+	<project path="vendor/lge/mako" name="android_vendor_lge_mako" remote="nosdev" revision="mm6.0" />
+	
+	<!-- Other -->
+	<project path="nitrogen_build" name="nitrogen_scripts" remote="nosdev" revision="mm6.0" >
+		<copyfile src="builder" dest="builder" />
+	</project>
+
 </manifest>
