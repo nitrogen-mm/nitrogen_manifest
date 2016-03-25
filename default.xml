@@ -260,7 +260,6 @@
 	<project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
 	<project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs,pdk-fs" />
 	<project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-	<project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
 	<project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
 	<project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
 	<project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />
@@ -469,6 +468,7 @@
 	<project path="frameworks/native" name="android_frameworks_native" remote="nos" revision="mm6.0" />
 	<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nos" revision="mm6.0" />
 	<project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nos" revision="mm6.0" />
+	<project path="frameworks/support" name="android_frameworks_support" remote="nos" revision="mm6.0"/>
 
 	<!-- External -->
 	<project path="external/fuse" name="android_external_fuse" remote="nos" revision="mm6.0" />
