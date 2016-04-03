@@ -469,6 +469,7 @@
 
 	<!-- External -->
 	<project path="external/fuse" name="android_external_fuse" remote="nos" revision="mm6.0" />
+	<project path="external/exfat" name="android_external_exfat" remote="nos" revision="mm6.0" />
 	<project path="external/libpng" name="android_external_libpng" remote="nos" revision="mm6.0" />
 	<project path="external/busybox" name="android_external_busybox" remote="nos" revision="mm6.0" />
 	<project path="external/google" name="android_external_google" remote="nos" revision="marshmallow-6.0" />
