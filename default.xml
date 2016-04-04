@@ -491,22 +491,28 @@
 			LG Optimus G (geehrc)
 			LG Optimus G (geeb)
 			LG Nexus 4 (mako)
+			Google Sprout 4
+			Google Sprout 8
 	-->
 	
 	<!-- Device tree -->
 	<project path="device/lge/geehrc" name="android_device_lge_geehrc" remote="nos" revision="mm6.0" />
 	<project path="device/lge/geeb" name="android_device_lge_geeb" remote="nosdev" revision="mm6.0" />
 	<project path="device/lge/mako" name="android_device_lge_mako" remote="nosdev" revision="mm6.0" />
+	<project path="device/google/sprout4" name="android_device_google_sprout4" remote="nosdev" revision="mm6.0" />
+	<project path="device/google/sprout8" name="android_device_google_sprout8" remote="nosdev" revision="mm6.0" />
 
 	<!-- Kernels -->
 	<project path="kernel/lge/geehrc" name="android_kernel_lge_geehrc" remote="nos" revision="mm6.0" />
 	<project path="kernel/lge/geeb" name="android_kernel_lge_geeb" remote="nosdev" revision="mm6.0" />
 	<project path="kernel/lge/mako" name="android_kernel_lge_mako" remote="nosdev" revision="mm6.0" />
+	<project path="kernel/google/sprout" name="android_kernel_google_sprout" remote="nosdev" revision="mm6.0" />
 
 	<!-- Blobs -->
 	<project path="vendor/lge/geehrc" name="android_vendor_lge_geehrc" remote="nos" revision="mm6.0" />
 	<project path="vendor/lge/geeb" name="android_vendor_lge_geeb" remote="nosdev" revision="mm6.0" />
 	<project path="vendor/lge/mako" name="android_vendor_lge_mako" remote="nosdev" revision="mm6.0" />
+	<project path="vendor/google/sprout" name="android_vendor_google_sprout" remote="nosdev" revision="mm6.0" />
 	
 	<!-- Other -->
 	<project path="nitrogen_build" name="nitrogen_scripts" remote="nosdev" revision="mm6.0" >
