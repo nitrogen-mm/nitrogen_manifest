@@ -475,6 +475,7 @@
 	<project path="external/google" name="android_external_google" remote="nos" revision="marshmallow-6.0" />
 	<project path="external/chromium-webview" name="external_chromium-webview" remote="nos" revision="mm6.0" />
 	<project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="nos" revision="mm6.0" />
+	<project path="external/android-snackbar" name="android_external_android-snackbar" remote="nos" revision="mm6.0" />
 	<project path="external/sqlite" name="android_external_sqlite" remote="nos" revision="mm6.0" />
 
 	<!-- Hardware -->
