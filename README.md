@@ -6,9 +6,6 @@ Create dirs, and install soft, libs
 
     sudo su
     apt-get install bison build-essential curl flex lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev libesd0-dev libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop openjdk-7-jdk openjdk-7-jre pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev git-core make phablet-tools gperf
-    add-apt-repository ppa:webupd8team/java
-    apt-get update
-    apt-get install oracle-java7-installer
     exit
     
     
@@ -60,7 +57,9 @@ LG Optimus G (geehrc)
 
 LG Optimus G (geeb)
 
-LG Nexus 4 (mako) | Google Nexus 4 (occam)
+LG Nexus 4 (mako)
+
+LG Nexus 5 (hammerhead)
 
 Android One (Sprout 4)
 
