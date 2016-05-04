@@ -90,7 +90,6 @@
 	<project path="external/google-tv-pairing-protocol" name="platform/external/google-tv-pairing-protocol" groups="pdk-fs" />
 	<project path="external/gptfdisk" name="platform/external/gptfdisk" groups="pdk-fs" />
 	<project path="external/gtest" name="platform/external/gtest" groups="pdk" />
-	<project path="external/guava" name="platform/external/guava" groups="pdk-cw-fs,pdk-fs" />
 	<project path="external/hamcrest" name="platform/external/hamcrest" groups="pdk-cw-fs,pdk-fs" />
 	<project path="external/harfbuzz_ng" name="platform/external/harfbuzz_ng" groups="pdk,qcom_msm8x26" />
 	<project path="external/hyphenation-patterns" name="platform/external/hyphenation-patterns" groups="pdk-fs" />
@@ -473,6 +472,7 @@
 	<!-- External -->
 	<project path="external/fuse" name="android_external_fuse" remote="nos" revision="mm6.0" />
 	<project path="external/exfat" name="android_external_exfat" remote="nos" revision="mm6.0" />
+	<project path="external/guava" name="android_external_guava" remote="nos" revision="mm6.0" />
 	<project path="external/libpng" name="android_external_libpng" remote="nos" revision="mm6.0" />
 	<project path="external/busybox" name="android_external_busybox" remote="nos" revision="mm6.0" />
 	<project path="external/google" name="android_external_google" remote="nos" revision="marshmallow-6.0" />
