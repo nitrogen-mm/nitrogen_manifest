@@ -328,7 +328,6 @@
 	<project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
 	<project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
 	<project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />
-	<project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
 	<project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" />
 	<project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
 	<project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
@@ -410,7 +409,7 @@
 	
 	<!-- 
 		Nitrogen OS
-		Android 6.0.1 rev. 3
+		Android 6.0.1
 		By xyyx, Mr.MEX
 	-->
 	<project path="build" name="android_build" groups="pdk" remote="nos" revision="mm6.0" >
@@ -442,6 +441,7 @@
 	<project path="packages/apps/OTAUpdates" name="android_packages_apps_OTAUpdates" remote="nos" revision="aosp" />
 	<project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nos" revision="mm6.0" />
+	<project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="nos" revision="mm6.0" />
 	<project path="packages/apps/ViPERFX" name="android_packages_apps_ViPERFX" remote="nos" revision="mm6.0" />
 
