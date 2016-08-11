@@ -385,7 +385,6 @@
 	<project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
 	<project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
 	<project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-	<project path="system/bt" name="platform/system/bt" groups="pdk" />
 	<project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
 	<project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
 	<project path="system/media" name="platform/system/media" groups="pdk" />
@@ -455,6 +454,7 @@
 	<project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nos" revision="mm6.0" />
 
 	<!-- System -->
+	<project path="system/bt" name="android_system_bt" remote="nos" revision="mm6.0" />
 	<project path="system/core" name="android_system_core" remote="nos" revision="mm6.0" />
 	<project path="system/extras" name="android_system_extras" remote="nos" revision="mm6.0" />
 	<project path="system/vold" name="android_system_vold" remote="nos" revision="mm6.0" />
