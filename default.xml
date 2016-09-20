@@ -6,7 +6,7 @@
 	<default revision="refs/tags/android-6.0.1_r60" remote="aosp" sync-j="16" />
 
 	<remote name="nos"
-		fetch="https://github.com/nitrogen-project"
+		fetch="https://github.com/nitrogen-project-mm"
 		sync-j="16"/>
 
 	<!--
